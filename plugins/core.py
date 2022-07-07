@@ -14,10 +14,10 @@ def start(core:VACore):
             "mpcHcPath": "C:\Program Files (x86)\K-Lite Codec Pack\MPC-HC64\mpc-hc64_nvo.exe",
             "mpcIsUseHttpRemote": False,
 
-            "isOnline": False,
+            "isOnline": True,
             #"ttsIndex": 0,
             "useTTSCache": False,
-            "ttsEngineId": "pyttsx",
+            "ttsEngineId": "silero_v3",
             "ttsEngineId2": "", # двиг для прямой озвучки на сервере. Если пуст - используется ttsEngineId
             "playWavEngineId": "audioplayer",
             "linguaFrancaLang": "ru", # язык для библиотеки lingua-franca конвертирования чисел

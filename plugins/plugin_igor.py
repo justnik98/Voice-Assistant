@@ -15,7 +15,7 @@ def start(core:VACore):
         },
 
         "commands": {
-            "спроси у игоря|спроси": ask_igor,
+            "спроси у игоря|спроси|спроси у игр": ask_igor,
         }
     }
     return manifest
